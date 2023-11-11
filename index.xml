@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>Inpa_Clone</name>
+		<version>1.0</version>
+		<description>
+			<![CDATA[ Inpa님의 블로그를 따라 만든 것입니다. ]]>
+		</description>
+		<license>
+			<![CDATA[ MIT License ]]>
+		</license>
+	</information>
+	<author>
+		<name>Tistory</name>
+		<homepage>http://logsomething.tistory.com</homepage>
+		<email>bluebird999280@gmail.com</email>
+	</author>
+	<default>
+		<recentEntries>5</recentEntries>
+		<recentComments>4</recentComments>
+		<recentTrackbacks>4</recentTrackbacks>
+		<itemsOnGuestbook>10</itemsOnGuestbook>
+		<tagsInCloud>30</tagsInCloud>
+		<sortInCloud>3</sortInCloud>
+		<expandComment>1</expandComment>
+		<lengthOfRecentNotice>25</lengthOfRecentNotice>
+		<lengthOfRecentEntry>27</lengthOfRecentEntry>
+		<lengthOfRecentComment>30</lengthOfRecentComment>
+		<lengthOfRecentTrackback>30</lengthOfRecentTrackback>
+		<lengthOfLink>30</lengthOfLink>
+		<showListOnCategory>1</showListOnCategory>
+		<showListOnArchive>1</showListOnArchive>
+		<commentMessage>
+			<none>0</none>
+			<single>1</single>
+		</commentMessage>
+		<trackbackMessage>
+			<none>0</none>
+			<single>1</single>
+		</trackbackMessage>
+		<tree>
+			<color>000000</color>
+			<bgColor>ffffff</bgColor>
+			<activeColor>000000</activeColor>
+			<activeBgColor>eeeeee</activeBgColor>
+			<labelLength>27</labelLength>
+			<showValue>1</showValue>
+		</tree>
+		<contentWidth>860</contentWidth>
+	</default>
+	<cover>
+		<item>
+			<name>cover-slider</name>
+			<label><![CDATA[ 슬라이더 ]]></label>
+			<description><![CDATA[ 좌우 스와이프가 가능한 슬라이더입니다. ]]></description>
+		</item>
+	</cover>
+	<variables>
+		<variable>
+			<name>view-more</name>
+			<label>
+				<![CDATA[ 목록 더보기 ]]>
+			</label>
+			<type>BOOL</type>
+			<option />
+			<default>true</default>
+			<description>
+				<![CDATA[ 페이징 대신 목록 더보기를 사용합니다. ]]>
+			</description>
+		</variable>
+	</variables>
+</skin>
